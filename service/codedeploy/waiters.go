@@ -5,8 +5,8 @@ package codedeploy
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/request"
 )
 
 // WaitUntilDeploymentSuccessful uses the CodeDeploy API operation

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
+	"github.com/yangb8/aws-sdk-go/aws/corehandlers"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/awstesting"
 )
 
 func TestRequest_SetContext(t *testing.T) {

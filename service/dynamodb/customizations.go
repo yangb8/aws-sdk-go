@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/awserr"
+	"github.com/yangb8/aws-sdk-go/aws/client"
+	"github.com/yangb8/aws-sdk-go/aws/request"
 )
 
 type retryer struct {

@@ -9,9 +9,9 @@
 package dynamodbiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/service/dynamodb"
 )
 
 // DynamoDBAPI provides an interface to enable mocking the

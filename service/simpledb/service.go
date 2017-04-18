@@ -3,13 +3,13 @@
 package simpledb
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
-	"github.com/aws/aws-sdk-go/private/signer/v2"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/client"
+	"github.com/yangb8/aws-sdk-go/aws/client/metadata"
+	"github.com/yangb8/aws-sdk-go/aws/corehandlers"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/private/protocol/query"
+	"github.com/yangb8/aws-sdk-go/private/signer/v2"
 )
 
 // Amazon SimpleDB is a web service providing the core database functions of

@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/credentials"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/awstesting"
 )
 
 func TestStripExcessHeaders(t *testing.T) {

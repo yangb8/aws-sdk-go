@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/sqs"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/awserr"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/awstesting/unit"
+	"github.com/yangb8/aws-sdk-go/service/sqs"
 )
 
 var svc = func() *sqs.SQS {

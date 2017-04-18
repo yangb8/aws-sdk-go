@@ -9,9 +9,9 @@
 package mobileanalyticsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/mobileanalytics"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/service/mobileanalytics"
 )
 
 // MobileAnalyticsAPI provides an interface to enable mocking the

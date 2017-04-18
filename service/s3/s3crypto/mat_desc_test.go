@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws"
 )
 
 func TestEncodeMaterialDescription(t *testing.T) {

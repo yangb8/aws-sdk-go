@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/awstesting/unit"
+	"github.com/yangb8/aws-sdk-go/service/s3"
 )
 
 func assertMD5(t *testing.T, req *request.Request) {

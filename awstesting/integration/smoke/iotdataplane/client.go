@@ -6,10 +6,10 @@ package iotdataplane
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/iot"
-	"github.com/aws/aws-sdk-go/service/iotdataplane"
+	"github.com/yangb8/aws-sdk-go/aws"
+	"github.com/yangb8/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/yangb8/aws-sdk-go/service/iot"
+	"github.com/yangb8/aws-sdk-go/service/iotdataplane"
 	"github.com/gucumber/gucumber"
 )
 

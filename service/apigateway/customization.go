@@ -1,8 +1,8 @@
 package apigateway
 
 import (
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/yangb8/aws-sdk-go/aws/client"
+	"github.com/yangb8/aws-sdk-go/aws/request"
 )
 
 func init() {

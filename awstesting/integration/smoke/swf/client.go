@@ -4,8 +4,8 @@
 package swf
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/swf"
+	"github.com/yangb8/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/yangb8/aws-sdk-go/service/swf"
 	"github.com/gucumber/gucumber"
 )
 
