@@ -1,6 +1,16 @@
 # AWS SDK for Go [![API Reference](http://img.shields.io/badge/api-reference-blue.svg)](http://docs.aws.amazon.com/sdk-for-go/api) [![Join the chat at https://gitter.im/aws/aws-sdk-go](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aws/aws-sdk-go?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://img.shields.io/travis/aws/aws-sdk-go.svg)](https://travis-ci.org/aws/aws-sdk-go) [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/yangb8/aws-sdk-go/blob/master/LICENSE.txt)
 
-aws-sdk-go is the official AWS SDK for the Go programming language.
+aws-sdk-go is a SDK extention for Dell/EMC ECS based on official AWS SDK for the Go programming language.
+following files are modified to support ECS specific features (Refer ECS data access guidance for feature details)
+
+    models/apis/s3/2006-03-01/api-2.json
+    service/s3/api.go
+    service/s3/examples_test.go
+    service/s3/s3iface/interface.go
+    service/s3/s3manager/upload.go
+
+and patch file `ecs.patch` is also provided as a reference for who want to create their own ECS SDK for Go by forking AWS SDK for Go.
+
 
 Checkout our [release notes](https://github.com/yangb8/aws-sdk-go/releases) for information about the latest bug fixes, updates, and features added to the SDK.
 
